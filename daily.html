@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>일상생활 관리 | 투석케어</title><style>
+:root{--ink:#183e4c;--muted:#637b84;--blue:#277e94;--pale:#eaf5f8;--mint:#e8f5ef;--line:#dce9ed;--bg:#f7fafb;--coral:#c95642;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;line-height:1.65}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{max-width:1120px;margin:auto;padding:0 22px}.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}.brand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:1.2rem}.logo{background:var(--pale);width:42px;height:42px;border-radius:14px;display:grid;place-items:center;color:var(--blue);font-size:23px}.navlinks{display:flex;gap:6px;flex-wrap:wrap}.navlinks a{color:var(--muted);text-decoration:none;padding:9px 12px;border-radius:12px;font-size:.92rem}.navlinks a:hover{background:var(--pale);color:var(--blue)}.hero{padding:40px 0 26px}.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.eyebrow{color:var(--blue);font-weight:800;font-size:.88rem;letter-spacing:.04em}.hero h1{font-size:clamp(2rem,4vw,3.25rem);line-height:1.2;margin:12px 0 16px;letter-spacing:-.04em}.hero p{color:var(--muted);font-size:1.06rem;max-width:520px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:13px;padding:12px 17px;font-weight:750;background:var(--blue);color:white}.btn.secondary{background:white;color:var(--blue);border:1px solid #c7e0e7}.btn.small{padding:8px 12px;font-size:.9rem}.hero-img{width:100%;border-radius:24px;box-shadow:0 12px 34px #214a5812;border:1px solid var(--line)}.notice{background:#fff6ed;border:1px solid #f4d8c6;color:#824d38;padding:14px 16px;border-radius:16px;margin:12px 0 24px}.section{padding:34px 0;scroll-margin-top:88px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}.section h2{font-size:clamp(1.5rem,3vw,2rem);margin:0;letter-spacing:-.03em}.section-head p{color:var(--muted);margin:6px 0 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:0 5px 18px #22495508}.card h3{margin:7px 0 6px;font-size:1.1rem}.card p{color:var(--muted);margin:0}.icon{width:46px;height:46px;border-radius:15px;background:var(--pale);display:grid;place-items:center;font-size:24px}.pill{display:inline-flex;background:var(--pale);color:var(--blue);font-size:.8rem;font-weight:800;padding:4px 10px;border-radius:100px}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:15px 13px}.step-num{display:inline-grid;place-items:center;width:30px;height:30px;background:var(--blue);color:#fff;border-radius:50%;font-weight:800}.step-art{height:105px;display:grid;place-items:center;margin:8px 0}.step-art svg{width:100%;height:100%;max-width:150px}.step h3{font-size:1rem;margin:6px 0}.step p{font-size:.9rem;color:var(--muted);margin:0}.smallnote{font-size:.88rem;color:var(--muted)}.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}.field{display:flex;flex-direction:column;gap:6px}.field label{font-size:.9rem;font-weight:750}.field input,.field select,.field textarea,.search{width:100%;padding:11px 12px;border:1px solid #cddfe4;border-radius:12px;background:#fff;color:var(--ink)}.row{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.row .field{flex:1;min-width:130px}.food-results{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}.food{padding:14px;border:1px solid var(--line);border-radius:15px;background:#fff}.food strong{display:block}.food p{font-size:.92rem;color:var(--muted);margin:6px 0 0}.tag{font-size:.76rem;color:#246d7d;background:#e9f5f7;border-radius:30px;padding:3px 8px;display:inline-block}.records{display:grid;gap:12px}.record{background:#fff;border:1px solid var(--line);border-radius:17px;padding:16px}.recordtop{display:flex;align-items:center;justify-content:space-between;gap:10px}.recordtop label{font-weight:800;display:flex;gap:9px;align-items:center}.record input[type=checkbox]{width:19px;height:19px;accent-color:var(--blue)}.record-fields{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}.record-fields label{display:block;font-size:.82rem;color:var(--muted);margin-bottom:4px}.record-fields input{width:100%;border:1px solid #d5e4e8;border-radius:10px;padding:9px}.progress{height:8px;border-radius:20px;background:#e7eff2;overflow:hidden;margin:12px 0}.progress span{display:block;height:100%;background:var(--blue);width:0;transition:width .2s}.warning{background:#fff1ed;border:1px solid #f2d0c8;border-radius:18px;padding:20px}.warning h3{margin:0 0 8px;color:#a44332}.warning li{margin:5px 0}.footer{background:#183e4c;color:#e6f2f4;padding:28px 0;margin-top:28px}.footer p{color:#c3d8dd;font-size:.88rem}.hidden{display:none!important}@media(max-width:800px){.hero-grid,.two{grid-template-columns:1fr}.hero-img{max-height:340px;object-fit:cover}.grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.record-fields{grid-template-columns:repeat(2,1fr)}.nav{align-items:flex-start;padding:12px 0;flex-direction:column;gap:8px}.navlinks{width:100%;overflow:auto;flex-wrap:nowrap}.navlinks a{white-space:nowrap}.section{padding:26px 0}}@media(max-width:480px){.wrap{padding:0 14px}.grid,.food-results{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.step{display:grid;grid-template-columns:40px 90px 1fr;gap:8px;align-items:center}.step-num{grid-column:1;grid-row:1}.step-art{grid-column:2;grid-row:1/3;height:85px;margin:0}.step h3{grid-column:3;grid-row:1;margin:0}.step p{grid-column:3;grid-row:2}.hero{padding-top:26px}.record-fields{grid-template-columns:1fr 1fr}}
+
+/* Multi-page navigation and food caution indicators */
+.navlinks a[aria-current="page"]{background:var(--pale);color:var(--blue);font-weight:800}
+.food-title{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.caution-light{display:inline-flex;align-items:center;gap:7px;color:#a92d2d;background:#fff0f0;border:1px solid #f2c5c5;border-radius:999px;padding:3px 9px;font-size:.78rem;font-weight:800;white-space:nowrap}
+.caution-light i{display:inline-block;width:10px;height:10px;border-radius:50%;background:#e33434;box-shadow:0 0 0 3px #ffdada;flex:none}
+.page-intro{padding:28px 0 6px}
+.page-intro p{color:var(--muted)}
+@media(max-width:700px){.nav{align-items:flex-start;padding:12px 0;flex-direction:column}.navlinks{gap:2px}.navlinks a{padding:7px 9px;font-size:.86rem}}
+
+body[data-page="home"] #howto,body[data-page="home"] #food,body[data-page="home"] #record{display:none}
+body[data-page="method"] .hero,body[data-page="method"] #about,body[data-page="method"] #food,body[data-page="method"] #record,body[data-page="method"] #warning,body[data-page="method"] main>.section:not(#howto){display:none}
+body[data-page="food"] .hero,body[data-page="food"] #about,body[data-page="food"] #howto,body[data-page="food"] #record,body[data-page="food"] #warning,body[data-page="food"] main>.section:not(#food){display:none}
+body[data-page="record"] .hero,body[data-page="record"] #about,body[data-page="record"] #howto,body[data-page="record"] #food,body[data-page="record"] #warning,body[data-page="record"] main>.section:not(#record){display:none}
+body[data-page="home"] #warning{display:block}
+
+/* PD CARE — final blue dashboard design */
+:root{--ink:#172b4d;--muted:#60738f;--blue:#2563eb;--pale:#e9f0ff;--mint:#e9f0ff;--line:#dce5f2;--bg:#f4f7fc;--coral:#c74e47;--white:#fff}
+html{scroll-padding-top:25px}
+body{background:#f4f7fc;color:#172b4d;letter-spacing:-.015em;line-height:1.7}
+.wrap{max-width:1190px;padding:0 36px}
+.top{position:fixed;left:0;top:0;bottom:0;width:244px;background:#102d59;border:0;box-shadow:8px 0 30px #102d5910;z-index:30}
+.top .nav{height:100%;min-height:0;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;padding:40px 22px;gap:58px}
+.brand{font-size:1.45rem;color:white;gap:12px;letter-spacing:-.055em}
+.brand small{color:#aec6eb!important;line-height:1.45;margin-top:5px;font-size:.72rem!important}
+.logo{width:45px;height:45px;background:#3976ed;border-radius:10px;color:#fff;font-size:25px;box-shadow:none}
+.navlinks{display:flex;flex-direction:column;gap:12px}
+.navlinks a{color:#bdd0ec;font-size:1rem;font-weight:700;border-radius:10px;padding:14px 17px;transition:.2s;position:relative}
+.navlinks a:hover{background:#234b83;color:white}
+.navlinks a[aria-current="page"]{background:#2f6be5;color:#fff;font-weight:800}
+.navlinks a[aria-current="page"]::before{content:"";position:absolute;left:0;top:20%;bottom:20%;width:3px;background:#a7d3ff;border-radius:4px}
+main,.footer{margin-left:244px}
+main>.wrap,main>.section>.wrap{max-width:1200px}
+.hero{padding:34px 0 18px}
+.hero-grid{background:#153b76;color:#fff;position:relative;overflow:hidden;isolation:isolate;display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center;border-radius:0 34px 34px 34px;padding:45px 48px;box-shadow:0 18px 40px #143d7922}
+.hero-grid::before{content:"";position:absolute;right:-110px;top:-150px;width:430px;height:430px;border:1px solid #ffffff30;border-radius:50%;z-index:-1}
+.hero-grid::after{content:"";position:absolute;right:-35px;top:-75px;width:260px;height:260px;border:1px solid #ffffff25;border-radius:50%;z-index:-1}
+.hero h1{color:white;font-size:clamp(2.1rem,3.7vw,3.7rem);line-height:1.28;letter-spacing:-.06em;margin:16px 0 20px;word-break:keep-all}
+.hero p{color:#d7e5fb;font-size:1.04rem;max-width:560px}
+.eyebrow{display:inline-flex;color:#c8e0ff;background:#ffffff17;border:1px solid #ffffff35;border-radius:4px;padding:5px 11px;font-size:.79rem;letter-spacing:.01em}
+.hero-grid>.card{background:#fff!important;color:#173764;border:0;border-radius:18px!important;padding:22px!important;box-shadow:0 16px 35px #001b4040}
+.hero-grid>.card svg{max-height:300px}
+.hero-img{border-radius:14px;max-height:310px;object-fit:cover;box-shadow:0 16px 35px #001b4040;border:4px solid #ffffff55}
+.actions{gap:12px}
+.btn{background:#3778f6;border-radius:7px;padding:13px 20px;font-weight:800;box-shadow:none}
+.btn.secondary{background:#fff;color:#164381;border:1px solid white}
+.btn:hover{background:#205ed6}
+.btn.secondary:hover{background:#e7f0ff}
+.notice{border:0;border-left:5px solid #e5a94a;background:#fff9ed;border-radius:0 12px 12px 0;box-shadow:0 4px 16px #18345a09;color:#6c4a1e}
+body[data-page="home"] .wrap.notice{margin:16px auto 20px}
+.section{padding:28px 0;scroll-margin-top:25px}
+.section-head{display:block;border:0;border-bottom:1px solid #d6e2f2;padding:0 0 16px;margin-bottom:22px}
+.section h2{font-size:clamp(1.45rem,2.6vw,2.1rem);color:#15386d;letter-spacing:-.045em}
+.section-head p{font-size:.95rem}
+.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.card{border:1px solid #dce6f3;border-radius:10px;background:white;padding:24px;box-shadow:0 5px 20px #123c7209}
+.card:hover{border-color:#9dbce9;box-shadow:0 8px 28px #123c7212}
+.card h3{font-size:1.15rem;letter-spacing:-.025em}
+.card p{color:#64758d}
+.icon{background:#e8f0ff;color:#1f61d4;border-radius:8px;width:49px;height:49px}
+.pill,.tag{border-radius:5px;background:#e6efff;color:#1b57bc}
+.steps{gap:12px}
+.step{background:#fff;border:1px solid #dce6f3;border-radius:9px;padding:18px 14px}
+.step-num{border-radius:7px;background:#2367e6}
+.step-art{height:112px}
+.food,.record{border:1px solid #dce6f3;border-radius:10px;box-shadow:0 4px 15px #123c7208}
+.recordtop{border-bottom:1px solid #edf1f7;padding-bottom:10px}
+.field input,.field select,.field textarea,.search,.record-fields input{border-radius:7px;border-color:#cddbee}
+input:focus,textarea:focus,select:focus{outline:2px solid #8eb5fa;outline-offset:1px}
+.warning{border-radius:8px;background:#fff7f5;border:1px solid #f1d4cf;border-left:5px solid #c95248}
+.footer{background:#e9f0fa;color:#47617f;border-top:1px solid #d7e2f0;margin-top:45px}
+.footer p{color:#647b99}
+@media(max-width:1080px){
+ .top{width:205px}.top .nav{padding:34px 14px}main,.footer{margin-left:205px}
+ .hero-grid{grid-template-columns:1fr;padding:36px}.hero-grid>.card,.hero-img{max-width:580px}
+ .wrap{padding:0 25px}
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+ .top{position:sticky;left:auto;right:auto;bottom:auto;width:100%;background:#102d59}
+ .top .nav{min-height:0;height:auto;padding:11px 16px;gap:9px;flex-direction:column;align-items:stretch}
+ .brand{font-size:1.15rem}.logo{width:34px;height:34px;font-size:20px}
+ .brand small{display:none!important}
+ .navlinks{flex-direction:row;gap:5px;overflow-x:auto;flex-wrap:nowrap}
+ .navlinks a{padding:8px 11px;font-size:.86rem;white-space:nowrap}
+ main,.footer{margin-left:0}.wrap{padding:0 17px}
+ .hero{padding:18px 0 10px}.hero-grid{padding:29px 22px;gap:19px;border-radius:0 22px 22px 22px}
+ .hero h1{font-size:clamp(1.9rem,7vw,2.7rem)}.hero p{font-size:.96rem}
+ .hero-grid>.card{padding:14px!important}
+ .section{padding:23px 0}.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}
+ .steps{grid-template-columns:repeat(2,1fr)}
+ .record-fields{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:480px){.grid,.food-results{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.hero-grid{padding:24px 18px}.actions{flex-direction:column;align-items:stretch}.actions .btn{text-align:center}.step{display:grid;grid-template-columns:40px 85px 1fr;align-items:center;gap:8px}.step-num{grid-column:1;grid-row:1}.step-art{grid-column:2;grid-row:1/3;height:80px;margin:0}.step h3{grid-column:3;grid-row:1;margin:0}.step p{grid-column:3;grid-row:2}.record-fields{grid-template-columns:1fr 1fr}}
+
+.daily-eyebrow{display:block;color:#2c68d7;font-size:.76rem;font-weight:850;letter-spacing:.08em;margin-bottom:7px}
+.daily-care-section{scroll-margin-top:30px}
+.daily-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.daily-card{background:#fff;border:1px solid #dce6f3;border-radius:13px;padding:23px;box-shadow:0 6px 18px #15386d0a;display:flex;flex-direction:column;min-height:230px}
+.daily-icon{display:grid;place-items:center;width:49px;height:49px;background:#eaf1ff;border-radius:10px;font-size:1.5rem;margin-bottom:14px}
+.daily-card h3{margin:0 0 10px;color:#173b70;font-size:1.12rem}
+.daily-card p{margin:0 0 15px;color:#526a85;font-size:.92rem;line-height:1.75;flex:1}
+.daily-label{color:#2d64bd;font-size:.79rem;font-weight:800;background:#edf3ff;align-self:flex-start;padding:5px 9px;border-radius:6px}
+.daily-link{align-self:flex-start;color:#205fd2;font-size:.85rem;font-weight:850;text-decoration:none;border-bottom:1px solid #a5bff0}
+.daily-link:hover{text-decoration:underline}
+.daily-alert{margin-top:22px;background:#fff6f4;border:1px solid #f0cbc6;border-left:5px solid #d05a50;border-radius:0 12px 12px 0;padding:20px 24px;color:#723c38}
+.daily-alert-title{font-size:1.07rem;font-weight:850;color:#a63e35}
+.daily-alert p{margin:7px 0 0;line-height:1.7}
+.daily-footnote{font-size:.82rem;color:#61758f;line-height:1.7;margin:14px 0 0}
+@media(max-width:1100px){.daily-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.daily-grid{grid-template-columns:1fr}.daily-card{min-height:0}}
+</style><style>
+.pd-learning{padding-top:44px;padding-bottom:55px;background:#f1f5fc}.pd-learning .section-head{margin-bottom:20px}.pd-overline{font-size:.77rem;font-weight:800;letter-spacing:.13em;color:#2766d4;margin:0 0 7px}.pd-alert{border-left:5px solid #efb44c;background:#fff9ed;padding:19px 23px;border-radius:0 11px 11px 0;margin-bottom:22px}.pd-alert p{margin:6px 0 0}.pd-tabs{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0 26px}.pd-tabs a{background:white;border:1px solid #c9d9f3;padding:10px 14px;border-radius:8px;color:#17488d;text-decoration:none;font-weight:700}.pd-tabs a:hover{background:#e1ebfc}.pd-panel{scroll-margin-top:25px;background:white;border:1px solid #dce6f4;border-radius:14px;padding:29px;margin:19px 0;box-shadow:0 8px 25px #133b7109}.pd-kicker{font-size:.75rem;color:#2465d8;letter-spacing:.12em;font-weight:900;margin-bottom:7px}.pd-panel h3{font-size:1.45rem;color:#123b78;margin:0 0 12px;letter-spacing:-.04em}.pd-panel h4{font-size:1.1rem;color:#173d73;margin:0 0 6px}.pd-sub{color:#5e708b;margin:0 0 20px}.pd-steps{display:grid;gap:13px}.pd-step{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:19px;border:1px solid #e2eaf6;border-radius:11px;background:#fbfdff}.pd-step p{margin:0 0 8px}.pd-number{background:#1e60d0;color:white;border-radius:9px;height:44px;display:grid;place-items:center;font-weight:900}.pd-tip{font-size:.92rem;background:#eaf2ff;color:#204d8e;padding:9px 12px;border-radius:7px;margin:10px 0 0!important}.pd-mini-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.pd-mini-grid>div{background:#f2f6fe;border-radius:10px;padding:18px}.pd-mini-grid strong{color:#174b9b}.pd-mini-grid p{margin:8px 0 0}.pd-urgent{border-left:5px solid #c9544a}.pd-urgent .pd-kicker,.pd-urgent h3{color:#a13c34}.pd-urgent li{margin:10px 0}.pd-bottom{background:#153b76;color:white;padding:26px;border-radius:13px;margin-top:22px}.pd-bottom p{color:#dce8fa;margin:9px 0 18px}.pd-sources{font-size:.85rem;color:#64738a;margin-top:20px}.pd-sources a{color:#1853ad}@media(max-width:760px){.pd-mini-grid{grid-template-columns:1fr}.pd-panel{padding:19px}.pd-step{grid-template-columns:40px 1fr;padding:14px;gap:10px}.pd-number{height:36px}.pd-tabs a{font-size:.9rem}}
+</style></head><body data-page="daily"><header class="top"><div class="wrap nav"><div class="brand"><span class="logo">♡</span><span>투석케어 <small style="display:block;color:#6c8790;font-size:.68rem;font-weight:600">나의 복막투석 건강관리</small></span></div><nav class="navlinks"><a href="index.html">홈</a><a href="method.html">투석 방법</a><a aria-current="page" href="daily.html">일상 관리</a><a href="food.html">음식 검색</a><a href="record.html">투석 기록</a></nav></div></header>
+<main><section aria-labelledby="daily-care-heading" class="section daily-care-section" id="daily-care">
+<div class="wrap">
+<div class="section-head"><div><span class="daily-eyebrow">DAILY CARE · 가정에서 실천하는 생활수칙</span><h2 id="daily-care-heading">치료 후 일상생활 관리</h2><p>복막투석은 가정에서 꾸준한 자가관리가 중요합니다. 아래 6가지 수칙을 매일 확인해 보세요.</p></div></div>
+<div class="daily-grid">
+<article class="daily-card"><div aria-hidden="true" class="daily-icon">🧼</div><h3>손 위생과 교환 환경</h3><p>투석액을 교환하기 전 손 위생을 철저히 하고, 병원에서 교육받은 방법대로 마스크를 착용하세요. 깨끗하고 외풍이 적은 공간에서 교환하세요.</p><span class="daily-label">교환 전 확인</span></article>
+<article class="daily-card"><div aria-hidden="true" class="daily-icon">🩹</div><h3>카테터 출구부 관리</h3><p>출구부는 의료진이 교육한 방법과 주기에 따라 관리하고, 붉어짐·통증·부종·분비물 여부를 관찰하세요. 샤워와 드레싱 방법도 병원 지침을 따르세요.</p><span class="daily-label">매일 관찰</span></article>
+<article class="daily-card"><div aria-hidden="true" class="daily-icon">💧</div><h3>배액액 상태 확인</h3><p>교환할 때마다 배액액이 평소처럼 맑은지, 색이 변하거나 혼탁하지 않은지 확인하세요. 배액액이 뿌옇다면 열이 없어도 즉시 복막투석실에 연락하세요.</p><span class="daily-label">매 교환 시 확인</span></article>
+<article class="daily-card"><div aria-hidden="true" class="daily-icon">📝</div><h3>건강 상태와 투석 기록</h3><p>의료진이 안내한 기준에 따라 체중·혈압·소변량·주입량·배액량·증상을 기록하세요. 평소와 다른 변화는 진료 시 공유하세요.</p><a class="daily-link" href="record.html">투석 기록 페이지 →</a></article>
+<article class="daily-card"><div aria-hidden="true" class="daily-icon">🍽️</div><h3>식사와 수분 관리</h3><p>복막투석 중에는 단백질 손실이 생길 수 있으므로 적절한 단백질 섭취가 중요합니다. 염분·인·칼륨·수분은 혈액검사와 의료진의 처방에 따라 조절하세요.</p><a class="daily-link" href="food.html">식이관리 페이지 →</a></article>
+<article class="daily-card"><div aria-hidden="true" class="daily-icon">🚶</div><h3>운동과 일상생활</h3><p>몸 상태에 맞는 가벼운 걷기 등 규칙적인 활동을 이어가세요. 카테터를 당기거나 복부에 과도한 압력이 가해지는 활동은 의료진과 상의하세요.</p><span class="daily-label">무리하지 않기</span></article>
+</div>
+<div class="daily-alert" role="note"><div class="daily-alert-title">⚠️ 이런 증상이 나타나면 기다리지 마세요</div><p><strong>혼탁한 배액액, 복통, 발열, 출구부의 발적·통증·분비물</strong> 등이 나타나면 즉시 복막투석실 또는 담당 의료진에게 연락하세요. 혼탁한 배액액은 발열이 없어도 확인이 필요합니다.</p></div>
+<p class="daily-footnote">※ 이 페이지는 병원 교육을 복습하기 위한 일반적인 안내입니다. 출구부 관리, 샤워, 투석액 교환 및 개인별 활동·식이 지침은 담당 의료진의 교육과 처방을 우선하세요.</p>
+</div></section></main>
+<footer class="footer"><div class="wrap"><strong>투석케어</strong><p>환자 교육을 위한 시제품입니다. 진단이나 치료 지시를 대신하지 않습니다. 투석 처방을 임의로 변경하지 마세요.</p><small>© 투석케어 · 한국어 환자 교육 시안</small></div></footer>
+<script>
+const foodData=[
+{name:'김치',tags:['나트륨'],why:'염장 과정으로 나트륨이 많을 수 있어요. 양을 조절하고 저염 제품을 고려하세요.'},
+{name:'된장찌개·국물',tags:['나트륨'],why:'국물에 나트륨이 많이 들어갈 수 있어 국물 섭취량을 줄이는 것이 도움이 됩니다.'},
+{name:'젓갈',tags:['나트륨'],why:'염분이 매우 높은 제품이 많아 자주 또는 많이 먹지 않도록 주의하세요.'},
+{name:'라면',tags:['나트륨','인'],why:'스프와 국물의 나트륨, 일부 제품의 인 첨가물을 확인하세요. 국물을 남기는 방법을 고려할 수 있어요.'},
+{name:'햄·소시지',tags:['나트륨','인'],why:'가공육은 나트륨이 높고 인산염 첨가물이 들어 있을 수 있어요.'},
+{name:'바나나',tags:['칼륨'],why:'칼륨이 포함된 과일입니다. 혈중 칼륨 수치와 식사 계획에 맞춰 양을 조절하세요.'},
+{name:'토마토',tags:['칼륨'],why:'칼륨 공급 식품입니다. 모든 환자가 피해야 하는 것은 아니며 개인별 검사 결과를 확인하세요.'},
+{name:'감자·고구마',tags:['칼륨'],why:'칼륨이 비교적 많을 수 있습니다. 조리 방법과 섭취량을 영양사와 상의하세요.'},
+{name:'말린 과일',tags:['칼륨'],why:'수분이 줄어 영양소가 농축될 수 있어 1회 섭취량에 유의하세요.'},
+{name:'콜라',tags:['인'],why:'일부 콜라에는 인산염 첨가물이 포함될 수 있어 제품 성분표를 확인하세요.'},
+{name:'우유·치즈',tags:['인','칼륨','단백질'],why:'단백질 공급원이지만 인·칼륨도 포함하므로 개인별 식사 계획에 맞추세요.'},
+{name:'달걀',tags:['단백질'],why:'단백질 공급원입니다. 복막투석 중 단백질 필요량은 개인 상태에 따라 달라집니다.'},
+{name:'생선·살코기',tags:['단백질'],why:'양질의 단백질 공급원입니다. 짜게 양념하거나 가공한 제품보다 담백한 조리법을 선택하세요.'},
+{name:'물·국물',tags:['수분'],why:'필요 수분량은 소변량, 부종, 혈압, 투석 처방에 따라 달라집니다. 일률적으로 제한하지 마세요.'}
+];let activeFilter='전체';function renderFoods(){const q=document.getElementById('foodSearch').value.trim().toLowerCase();const list=foodData.filter(f=>(f.name.toLowerCase().includes(q)||f.tags.join(' ').toLowerCase().includes(q)||f.why.toLowerCase().includes(q))&&(activeFilter==='전체'||f.tags.includes(activeFilter)));document.getElementById('foodResults').innerHTML=list.length?list.map(f=>`<article class="food"><div class="food-title"><strong>${f.name}</strong><span class="caution-light"><i aria-hidden="true"></i> 섭취량 확인</span></div><span class="tag">${f.tags.join(' · ')}</span><p>${f.why}</p></article>`).join(''):'<p class="smallnote">검색 결과가 없어요. 다른 음식 이름으로 검색해 보세요.</p>'}document.getElementById('foodSearch').addEventListener('input',renderFoods);document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{activeFilter=b.dataset.filter;document.querySelectorAll('.filter').forEach(x=>x.style.background=x===b?'#dff0f4':'white');renderFoods()}));renderFoods();
+const $=id=>document.getElementById(id);const today=new Date();const localDate=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);$('recordDate').value=localDate;let currentDate=localDate;let records=[];function defaults(n){return Array.from({length:n},(_,i)=>({done:false,planned:['08:00','13:00','18:00','22:00','02:00','06:00'][i]||'',start:'',end:'',drain:'',appearance:'맑음',symptoms:'',note:''}))}function loadDay(){currentDate=$('recordDate').value||localDate;const saved=localStorage.getItem('dialcare:'+currentDate);if(saved){try{records=JSON.parse(saved)}catch{records=defaults(4)}}else records=defaults(Number($('dailyCount').value)||4);$('dailyCount').value=String(records.length);renderRecords()}function renderRecords(){const done=records.filter(r=>r.done).length;$('progressFill').style.width=(records.length?done/records.length*100:0)+'%';$('progressText').textContent=`완료 ${done}회 / 예정 ${records.length}회`;$('records').innerHTML=records.map((r,i)=>`<article class="record"><div class="recordtop"><label><input type="checkbox" data-i="${i}" data-k="done" ${r.done?'checked':''}> ${i+1}회차 투석</label><span class="pill">${r.done?'완료':'기록 중'}</span></div><div class="record-fields"><div><label>예정 시간</label><input type="time" data-i="${i}" data-k="planned" value="${r.planned||''}"></div><div><label>시작 시간</label><input type="time" data-i="${i}" data-k="start" value="${r.start||''}"></div><div><label>종료 시간</label><input type="time" data-i="${i}" data-k="end" value="${r.end||''}"></div><div><label>배액량 (mL)</label><input type="number" min="0" data-i="${i}" data-k="drain" value="${r.drain||''}" placeholder="선택 입력"></div><div><label>배액 상태</label><select data-i="${i}" data-k="appearance"><option ${r.appearance==='맑음'?'selected':''}>맑음</option><option ${r.appearance==='혼탁'?'selected':''}>혼탁</option><option ${r.appearance==='혈액이 보임'?'selected':''}>혈액이 보임</option><option ${r.appearance==='기타'?'selected':''}>기타</option></select></div><div><label>증상</label><input data-i="${i}" data-k="symptoms" value="${r.symptoms||''}" placeholder="예: 복통 없음"></div><div style="grid-column:span 2"><label>특이사항</label><input data-i="${i}" data-k="note" value="${r.note||''}" placeholder="선택 입력"></div></div></article>`).join('');$('records').querySelectorAll('[data-i]').forEach(el=>el.addEventListener('change',e=>{const i=Number(e.target.dataset.i),k=e.target.dataset.k;records[i][k]=k==='done'?e.target.checked:e.target.value;renderRecords();}))}
+$('recordDate').addEventListener('change',loadDay);$('applyCount').addEventListener('click',()=>{const n=Number($('dailyCount').value);records=Array.from({length:n},(_,i)=>records[i]||defaults(n)[i]);renderRecords()});$('saveRecords').addEventListener('click',()=>{localStorage.setItem('dialcare:'+currentDate,JSON.stringify(records));$('saveStatus').textContent='저장했어요. 이 브라우저에서 날짜별 기록을 다시 열 수 있습니다.'});$('exportRecords').addEventListener('click',async()=>{const text=`투석 기록\n날짜: ${currentDate}\n`+records.map((r,i)=>`${i+1}회차: ${r.done?'완료':'미완료'} / 예정 ${r.planned||'-'} / 시작 ${r.start||'-'} / 종료 ${r.end||'-'} / 배액량 ${r.drain||'-'}mL / 상태 ${r.appearance||'-'} / 증상 ${r.symptoms||'-'} / 특이사항 ${r.note||'-'}`).join('\n');try{await navigator.clipboard.writeText(text);$('saveStatus').textContent='기록을 클립보드에 복사했어요.'}catch{$('saveStatus').textContent=text;}});$('clearRecords').addEventListener('click',()=>{if(confirm('이 날짜의 입력 내용을 초기화할까요?')){localStorage.removeItem('dialcare:'+currentDate);records=defaults(Number($('dailyCount').value)||4);renderRecords();$('saveStatus').textContent='현재 화면의 기록을 초기화했어요.'}});loadDay();
+</script></body></html>
